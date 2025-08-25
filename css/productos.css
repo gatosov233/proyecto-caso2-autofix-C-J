@@ -1,0 +1,73 @@
+/* Fondo general oscuro y texto claro */
+body {
+  background-color: #1f1f1f; /* fondo oscuro */
+  color: #ffffff;           /* texto blanco */
+  margin: 0;
+  padding: 0;
+}
+
+/* Tarjetas de productos */
+.product-card {
+  background-color: #2c2c2c; /* gris oscuro */
+  color: #fff;
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+}
+
+/* Imágenes */
+.card-img-top {
+  object-fit: contain;
+  height: 160px;
+  background-color: #1f1f1f; /* fondo más oscuro detrás de la foto */
+  padding: 10px;
+}
+
+/* Títulos */
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Precio destacado en rojo principal */
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #d32f2f;
+  margin-bottom: 10px;
+}
+
+/* Botón estilo rojo con hover más oscuro */
+.btn-primary {
+  background-color: #d32f2f;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #b71c1c;
+}
+
+/* Variante de tarjeta totalmente roja (destacados) */
+.card-roja {
+  background-color: #b71c1c;
+  color: white;
+  border: none;
+}
+
+.card-roja .btn {
+  background-color: white;
+  color: #b71c1c;
+  border: none;
+}
+
+.card-roja .btn:hover {
+  background-color: #880e0e;
+  color: white;
+}

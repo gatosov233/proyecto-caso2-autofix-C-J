@@ -1,0 +1,67 @@
+/* Paleta de la página */
+:root {
+  --color-fondo: #1f1f1f;
+  --color-fondo-secundario: #2c2c2c;
+  --color-navbar: #b71c1c;
+  --color-principal: #d32f2f;
+  --color-texto: #f0f0f0;
+  --color-muted: #bbb;
+}
+
+/* Fondo general */
+body {
+  background: url("/imagenes/A_seamless\,_repeating_pattern_of_the_AUTOFIX_logo.png") repeat;
+  background-size: 200px;
+  background-color: #222;
+}
+
+
+/* Navbar */
+.bg-custom {
+  background-color: var(--color-navbar) !important;
+}
+
+/* Card de login/sign up */
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 15px;
+  background-color: var(--color-fondo-secundario);
+  color: var(--color-texto);
+}
+
+/* Inputs */
+.form-control {
+  background-color: #ffffff;
+  border: 1px solid #ff0000;
+  color: var(--color-texto);
+}
+.form-control:focus {
+  background-color: #303030;
+  border-color: var(--color-principal);
+  color: var(--color-texto);
+  box-shadow: 0 0 0 0.2rem rgba(211, 47, 47, 0.4);
+}
+
+/* Botón */
+.btn-custom {
+  background-color: var(--color-principal);
+  color: #fff;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn-custom:hover {
+  background-color: var(--color-navbar);
+}
+
+/* Links */
+.link-custom {
+  color: var(--color-principal);
+  text-decoration: none;
+}
+.link-custom:hover {
+  text-decoration: underline;
+  color: #ff5252;
+}
+
+

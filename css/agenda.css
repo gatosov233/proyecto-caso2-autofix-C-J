@@ -1,0 +1,46 @@
+
+
+/* Fondo general */
+body {
+  background: url("/imagenes/A_seamless\,_repeating_pattern_of_the_AUTOFIX_logo.png") repeat;
+  background-size: 200px;
+  background-color: #222;
+}
+
+
+/* Etiquetas y texto dentro del formulario */
+section.container.py-5 label,
+section.container.py-5 p,
+section.container.py-5 h2 {
+  color: #ff0000; /* Texto blanco */
+}
+
+/* Inputs y selects */
+section.container.py-5 input,
+section.container.py-5 select {
+  border: 1px solid #b71c1c;  /* Rojo */
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #333;      /* Fondo input oscuro */
+  padding: 0.5rem;
+}
+
+section.container.py-5 input::placeholder {
+  color: #ffdddd;              /* Placeholder claro */
+}
+
+/* Botón confirmación */
+section.container.py-5 button {
+  background-color: #b71c1c;   /* Rojo */
+  border: none;
+  color: #ffffff;               /* Texto blanco */
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+section.container.py-5 button:hover {
+  background-color: #880e0e;   /* Rojo más oscuro al pasar el mouse */
+}
+
